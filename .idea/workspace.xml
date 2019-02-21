@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3441c73f-c3a7-4e0e-b6f1-f76e45902146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/models/driver.py" afterDir="false" />
+    <list default="true" id="3441c73f-c3a7-4e0e-b6f1-f76e45902146" name="Default Changelist" comment="driver.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +26,14 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_case/models/driver.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="e#23#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -51,8 +56,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="67" />
+    <option name="x" value="660" />
+    <option name="y" value="132" />
     <option name="width" value="1201" />
     <option name="height" value="989" />
   </component>
@@ -74,12 +79,21 @@
               <item name="lrsp_ui_autotest" type="462c0819:PsiDirectoryNode" />
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lrsp_ui_autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lrsp_ui_autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,16 +118,31 @@
       <option name="presentableId" value="Default" />
       <updated>1550734918664</updated>
     </task>
+    <task id="LOCAL-00001" summary="just do it">
+      <created>1550736132854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550736132854</updated>
+    </task>
+    <task id="LOCAL-00002" summary="driver.py">
+      <created>1550736934391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550736934391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="606" y="67" width="1201" height="989" extended-state="0" />
+    <frame x="660" y="132" width="1201" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16766982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32943925" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -129,6 +158,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="just do it" />
+    <MESSAGE value="driver.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="driver.py" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -141,7 +175,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/models/driver.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#23#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
