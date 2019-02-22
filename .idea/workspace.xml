@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3441c73f-c3a7-4e0e-b6f1-f76e45902146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/report/image2019-02-22_10_43_49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startup.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/login_sta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/page_obj/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_lrsp_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/models/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/models/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/page_obj/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/page_obj/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/page_obj/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/page_obj/loginPage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/models/driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+            <state relative-caret-position="138">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding>
                 <element signature="e#23#60#0" expanded="true" />
               </folding>
@@ -43,18 +35,6 @@
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/models/function.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding>
-                <element signature="e#23#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,10 +61,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/login_sta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#24#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_lrsp_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+              <folding>
+                <element signature="e#24#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,13 +131,14 @@
         <option value="$PROJECT_DIR$/test_case/login_sta.py" />
         <option value="$PROJECT_DIR$/test_case/models/myunit.py" />
         <option value="$PROJECT_DIR$/test_case/models/driver.py" />
+        <option value="$PROJECT_DIR$/run_lrsp_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="355" />
-    <option name="y" value="82" />
-    <option name="width" value="1340" />
+    <option name="x" value="450" />
+    <option name="y" value="68" />
+    <option name="width" value="1107" />
     <option name="height" value="989" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -216,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.login_sta">
+  <component name="RunManager" selected="Python.run_lrsp_test">
     <configuration name="driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lrsp_ui_autotest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,8 +294,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run_lrsp_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lrsp_ui_autotest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_lrsp_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_lrsp_test" />
         <item itemvalue="Python.login_sta" />
         <item itemvalue="Python.loginPage" />
         <item itemvalue="Python.function" />
@@ -374,21 +389,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="355" y="82" width="1340" height="989" extended-state="0" />
+    <frame x="857" y="44" width="1107" height="989" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.30798772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.30776426" />
       <window_info id="Favorites" order="1" sideWeight="0.5014493" side_tool="true" weight="0.16766982" />
       <window_info id="Structure" order="2" sideWeight="0.5014493" weight="0.40480593" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49769586" visible="true" weight="0.34228972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49766135" visible="true" weight="0.34228972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.19392523" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49923196" weight="0.28037384" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50230414" side_tool="true" visible="true" weight="0.34228972" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50233865" side_tool="true" visible="true" weight="0.34228972" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32943925" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -472,16 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/login_sta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/models/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -494,10 +500,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/models/driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        <state relative-caret-position="138">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <element signature="e#23#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/login_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lrsp_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
