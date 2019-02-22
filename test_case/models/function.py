@@ -1,6 +1,7 @@
 # -*- coding:UTF-8 -*-
 from selenium import webdriver
 import os
+import time
 
 # 截图函数
 def insert_img(driver, file_name):
@@ -8,7 +9,7 @@ def insert_img(driver, file_name):
     # __file__用来获得模块所在的路径的,如果在控制台下直接使用print(__file__)报错,此时没有脚本执行,未定义__file__
     # dirname 返回当前所在目录
     base_dir = str(base_dir)
-    base_dir = base_dir.replace('\\', '/')
+    # base_dir = base_dir.replace('\\', '/')
     # base = base_dir.split('/test_case/')[0]
     base = os.path.dirname(base_dir)
     file_path = str(base) + "/report/image" + file_name
@@ -17,7 +18,8 @@ def insert_img(driver, file_name):
 if __name__ == '__main__':
     driver = webdriver.Chrome()
     driver.get("http://release.web.beta.lrwanche.com")
-    insert_img(driver, 'lisp.png')
+    now = time.strftime("%Y-%m-%d_%H_%M_%S")
+    insert_img(driver, now+".png")
     driver.quit()
 # dir_name = os.path.dirname(__file__)
 # print(os.path.dirname(os.path.dirname(__file__)))
