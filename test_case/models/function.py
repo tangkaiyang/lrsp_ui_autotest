@@ -12,14 +12,14 @@ def insert_img(driver, file_name):
     # base_dir = base_dir.replace('\\', '/')
     # base = base_dir.split('/test_case/')[0]
     base = os.path.dirname(base_dir)
-    file_path = str(base) + "/report/image" + file_name
+    now = time.strftime("%Y-%m-%d_%H_%M_%S")
+    file_path = str(base) + "/report/image" + file_name + now + ".png"
     driver.get_screenshot_as_file(file_path)
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()
     driver.get("http://release.web.beta.lrwanche.com")
-    now = time.strftime("%Y-%m-%d_%H_%M_%S")
-    insert_img(driver, now+".png")
+    insert_img(driver, "lrsp")
     driver.quit()
 # dir_name = os.path.dirname(__file__)
 # print(os.path.dirname(os.path.dirname(__file__)))

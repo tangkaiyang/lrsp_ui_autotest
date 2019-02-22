@@ -6,7 +6,7 @@ class Page(object):
 
     lrsp_url = 'http://release.web.beta.lrwanche.com'
 
-    def __init__(self, selenium_driver, base_url = lrsp_url, parent = None):
+    def __init__(self, selenium_driver, base_url=lrsp_url, parent=None):
         self.base_url = base_url
         self.driver = selenium_driver
         self.timeout = 30
@@ -16,6 +16,7 @@ class Page(object):
         url = self.base_url + url
         self.driver.get(url)
         assert self.on_page(), 'Did not land on %s' % url
+        # assert关键字assert 表达式[,参数]
 
     def find_element(self, *loc):
         return self.driver.find_element(*loc)
@@ -25,9 +26,12 @@ class Page(object):
 
     def open(self):
         self._open(self.url)
+        # 外部通过调用open()调用类内部的_open()
 
     def on_page(self):
         return self.driver.current_url == (self.base_url + self.url)
+        # 判断是否在当前页面
 
     def script(self, src):
         return self.driver.execute_script(src)
+        # 调用JavaScript代码的函数
