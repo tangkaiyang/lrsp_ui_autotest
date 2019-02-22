@@ -1,6 +1,7 @@
 # -*- coding:UTF-8 -*-
-from selenium.webdriver import  Remote
+from selenium.webdriver import Remote
 from selenium import webdriver
+# import time
 
 
 #启动浏览器驱动
@@ -15,4 +16,5 @@ def browser():
 if __name__ == '__main__':
     dr = browser()
     dr.get("http://release.web.beta.lrwanche.com")
+    # time.sleep(5)
     dr.quit()
