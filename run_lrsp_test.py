@@ -14,7 +14,7 @@ def send_mail(file_new):
     mail_body = f.read()
     f.close()
 
-    send = "m17757989076@136.com"
+    send = "m17757989076@163.com"
     send_pwd = "tangkaiyang123"
     receive = "945541696@qq.com"
 

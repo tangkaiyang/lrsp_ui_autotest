@@ -15,7 +15,7 @@ class Page(object):
     def _open(self, url):
         url = self.base_url + url
         self.driver.get(url)
-        assert self.on_page(), 'Did not land on %s' % url
+        # assert self.on_page(), 'Did not land on %s' % url
         # assert关键字assert 表达式[,参数]
 
     def find_element(self, *loc):
@@ -28,8 +28,8 @@ class Page(object):
         self._open(self.url)
         # 外部通过调用open()调用类内部的_open()
 
-    def on_page(self):
-        return self.driver.current_url == (self.base_url + self.url)
+    # def on_page(self):
+    #     return self.driver.current_url == (self.base_url + self.url)
         # 判断是否在当前页面
 
     def script(self, src):

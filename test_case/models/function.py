@@ -12,7 +12,7 @@ def insert_img(driver, file_name):
     # base_dir = base_dir.replace('\\', '/')
     # base = base_dir.split('/test_case/')[0]
     base = os.path.dirname(base_dir)
-    now = time.strftime("%Y-%m-%d_%H_%M_%S")
+    now = time.strftime("%Y-%m-%d %H:%M:%S")
     file_path = str(base) + "/report/image" + file_name + now + ".png"
     driver.get_screenshot_as_file(file_path)
 
